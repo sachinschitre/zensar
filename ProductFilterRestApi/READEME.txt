@@ -1,0 +1,30 @@
+----------------------------------------------------------------------
+BUILDING THE APP:
+To build the app using Eclipse IDE. first run maven clean then maven build task spring-boot:run on the project root folder
+
+RUNNING THE APP:
+Apart from IDE, you can also run this app using following approaches-
+java -jar path-to-jar
+
+
+The ProductFilterRestApi app runs on port 8080
+It can be tested using Chrome extension such as Advanced REST Console.
+
+The URL to access all products is:
+http://localhost:8080/ProductFilterRestApi/api/product/all
+
+The URL to access filtered products that match the criteria given in the technical test document is:
+http://localhost:8080/ProductFilterRestApi/api/product/filtered/
+
+The labelType parameter is optional.It can take one of the valid values:
+ShowWasNow [default]
+ShowWasThenNow
+ShowPercDscount
+
+TESTING SCENARIOS:
+
+DUE TO LACK OF TIME, SOME BUGS IN PRICE FORMATTING MIGHT BE SEEN,
+AS NOT ALL TEST PATHS WOULD HAVE BEEN TESTED.
+
+THANK YOU!
+----------------------------------------------------------------------
